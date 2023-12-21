@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	db, err := sql.Open("postgres", "user=ovch dbname=parserHabrVacancy sslmode=disable")
+	db, err := sql.Open("postgres", "user=di dbname=parserHabrVacancy sslmode=disable")
 	if err != nil {
 		panic(err)
 	}
